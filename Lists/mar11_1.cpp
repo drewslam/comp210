@@ -18,7 +18,10 @@ public:
     Node* head = nullptr;
     Node* tail = nullptr;
 
-
+/*
+    null <--> l1 <--> l2 <--> l3 -> null
+*/
+   
     void Append(Node* newNode) {      // Checks if head is null
         if (head == nullptr) {        // If head is null then head
             head = newNode;           //  and tail are both assigned
